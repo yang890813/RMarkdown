@@ -16,5 +16,19 @@ knitr::opts_chunk$set(echo = TRUE)
 str(iris)
 #summary()
 summary(iris)
+
+
+```
+
+# Problem 2:
+
+The sample median of the variable Petail.With is 1.300.
+
+#I guess you mean Petail.width,teacher.
+
+# Problem 3: Draw a histograms of the Sepal.Length variable
+
+```{r}
+hist(iris$Sepal.Length)
 ```
 
